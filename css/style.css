@@ -1,0 +1,188 @@
+/*=======FONTS=========*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+
+
+
+
+
+/*=====UNIVERSALS=====*/
+body html{
+    box-sizing: border-box;
+    margin:none;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+}
+
+
+
+/*======HEADER SECTION======*/
+header {
+    height: 100px;
+    background-color: #000;
+    padding: 0px 16px;
+}
+header a{
+    color: yellow;
+}
+
+h1, h2 {
+    color:#fff;
+}
+
+
+.logo-img{
+    height: 90px;
+}
+
+.active {
+    border-radius: 50%;
+    background-color: yellow;
+    padding: 10px;
+    
+}
+
+.active a{
+    color: black;
+
+}
+
+/*=========MAIN SECTION======*/
+
+#hero {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.title-style{
+    margin: 0;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+/*=========ASIDE SECTION======*/
+
+.white-text{
+    color: #fff;
+}
+
+.centered {
+    text-align: center;
+}
+
+aside{
+    width: 30%;
+    background-color: #000;
+    height: 350px;
+    border: 2px solid #00f400;
+    float: left;
+}
+
+.blog-link:hover {
+    background-color: yellow;
+    color: #000;
+    
+}
+
+ .blog-link:hover a {
+     color: #000;
+ }
+
+.blog-link{
+    margin-bottom: 5px 0px;
+    padding: 10px 0px;
+}
+
+#blog-links{
+    padding-left: 0;
+    
+}
+
+aside ul li a {
+    color: #fff;
+}
+
+/*=========MAIN SECTION======*/
+
+#main-heading{
+    font-weight: 800;
+    color: black;
+}
+
+
+main{
+    float: right;
+    width: 69.5%;
+    height:350px;
+    overflow: auto;
+    
+}
+
+/*===========FOOOTER SECTION==============*/
+
+footer{
+    height: 55px;
+    background-color: #1f9cfd;
+    clear: both;
+    padding: 8px 0px;
+    
+ 
+}
+
+
+.fa{
+    margin: 8px;
+}
+
+footer #social-media a {
+    color: #000;
+}
+
+footer #social-media a:hover {
+    color: white;
+}
+
+.black-text{
+    text-align: right;
+    font-size: 14px;
+    color: black;
+    margin-bottom:10px;
+    color: #00f400;
+    
+}
+
+.black-text{
+    color: black;
+}

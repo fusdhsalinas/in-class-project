@@ -1,0 +1,40 @@
+h1{
+    color: black;
+}
+
+button{
+    background-color: #ff45ff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+
+main{
+    width: 100%;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    text-align: justify;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.featured-columns>#col-1>button{
+    background-color: #fd0008;
+    color: white;
+}
+
+.featured-columns>#col-2>button{
+    background-color: blue;
+    color: yellow;
+}
+
+.featured-columns>#col-3>button{
+    background-color: purple ;
+    color: orange;
+}
